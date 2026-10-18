@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Illustration de matière scolaire">
+ <defs><linearGradient id="back" x1=".2" y1="0" x2=".8" y2="1"><stop stop-color="#fff4de"/><stop offset="1" stop-color="#fbe0ba"/></linearGradient><filter id="shade" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#97795d" flood-opacity=".16"/></filter></defs>
+ <circle cx="64" cy="67" r="55" fill="#a9917a" opacity=".12"/><circle cx="64" cy="61" r="55" fill="url(#back)" stroke="#fff9ed" stroke-width="4"/>
+ <path d="M16 30l3 6 7 2-7 2-3 6-2-6-6-2 6-2zM113 91l3 5 5 2-5 2-3 5-2-5-5-2 5-2z" fill="#fffef3" opacity=".9"/>
+ <g filter="url(#shade)" stroke-linejoin="round"><path d="M29 25h70q7 0 7 7v66q0 7-7 7H29q-7 0-7-7V32q0-7 7-7z" fill="#fcead2" stroke="#ae8d79" stroke-width="4"/><rect x="34" y="35" width="60" height="18" rx="6" fill="#c5e3d2" stroke="#92baaa" stroke-width="3"/><path d="M34 64h60M34 78h60M54 60v38M74 60v38" stroke="#dbbd9c" stroke-width="2.5"/><circle cx="45" cy="71" r="5" fill="#f4a0aa"/><circle cx="64" cy="71" r="5" fill="#98c7ce"/><circle cx="84" cy="71" r="5" fill="#edd18f"/><circle cx="45" cy="89" r="5" fill="#d7b7e0"/><circle cx="65" cy="89" r="5" fill="#f2b27d"/><circle cx="85" cy="89" r="5" fill="#9fc99a"/></g>
+ <path d="M19 83q3 9 10 11" fill="none" stroke="#fffdf4" stroke-width="3" stroke-linecap="round" opacity=".75"/>
+ </svg>
