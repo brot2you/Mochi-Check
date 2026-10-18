@@ -1,0 +1,59 @@
+🍡 MOCHI VILLAGE — RELECTURE GRAPHIQUE & CHAMBRE ÉVOLUTIVE
+Version 2.0 — 18 octobre 2026
+
+Ce dossier contient la nouvelle surcouche graphique de MOCHI CHECK.
+La base pédagogique de l'application (checks, objectifs, stickers, badges,
+profil et historique) reste celle de ton index.html d'origine.
+
+CE QUI CHANGE
+- Les 5 icônes de navigation sont directement issues de la planche DA.
+- Les illustrations des collections et des objets proviennent elles aussi
+  de la planche DA : les textes restent de vrais textes HTML, jamais des
+  légendes déjà incrustées dans les illustrations.
+- La chambre utilise un cadrage sans texte incrusté.
+- La maison permet d'ajouter et de ranger jusqu'à 36 décorations et de
+  réutiliser plusieurs fois un même objet déjà acquis.
+- Déplacement à la souris ou au doigt : attraper puis glisser l'objet.
+- Alternative accessible : toucher l'objet, puis employer les boutons
+  fléchés ; au clavier, sélectionner l'objet et utiliser les flèches.
+- Chaque série de 4 objets installés jusqu'au 12e enrichit l'ambiance
+  de la chambre ; les objets eux-mêmes apparaissent immédiatement.
+- Deux nouvelles pages « Missions » et « Collection » utilisent l'univers
+  Cozy Storybook et les illustrations de la planche DA.
+- Les modules anciens « Gérer mes missions » et « Ouvrir mon album »
+  restent accessibles depuis ces nouveaux écrans.
+- Le jardin, le village, la boutique et les autres panneaux ont été
+  réharmonisés visuellement.
+
+INSTALLATION
+1. Décompresser l'archive puis ouvrir INSTALLER.html localement
+   sur son ordinateur. Cliquer sur le bouton GitHub pour créer l'index.html.
+   Si l'accès GitHub est bloqué : sélectionner manuellement son index.html
+   actuel téléchargé du dépôt.
+2. Dans le dépôt GitHub Mochi-Check : remplacer index.html, ainsi que les
+   fichiers mochi-village.js et mochi-village.css à la racine du dépôt.
+3. Glisser le dossier « assets » entier dans le dépôt : il contient
+   village-map.svg, cozy-room-clean.webp et les icônes dans assets/icons/.
+4. Attendre la publication GitHub Pages, puis Ctrl+F5 / actualisation forcée.
+
+ATTENTION AUX DONNÉES
+- Les données originales restent dans localStorage « b2y-mochi-check-v1 ».
+- Village, objets acquis, décoration et positions restent dans localStorage
+  « b2y-mochi-village-v1 » (sur cet appareil et dans ce navigateur).
+- Les placements v1 utilisant a/b/c/d sont automatiquement migrés.
+- Ne vide pas le stockage local du navigateur entre deux versions.
+- La sauvegarde « Exporter » du carnet original ne sauvegarde PAS encore
+  les objets de la chambre ni les positions : l'importation sur un autre
+  appareil nécessiterait un mécanisme spécifique pour le village.
+
+Le ZIP ne contient pas les fichiers de prévisualisation ni l'ancien décor
+qui avait des inscriptions redondantes. Seuls les fichiers utiles à la
+publication sont inclus. Le « village-map.svg » reste une carte décorative
+avec de vrais points interactifs par-dessus.
+
+DÉPANNAGE
+- Images absentes : vérifier le chemin « assets/icons/ » sur GitHub,
+  notamment majuscules/minuscules.
+- Pas de changement visible : vérifier que index.html a été régénéré avec
+  les liens « ?v=3 » et forcer l'actualisation du navigateur.
+- Profil : ouvrir « Mon profil » ou « Changer mon prénom ».
